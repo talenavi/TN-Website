@@ -1,0 +1,1093 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ultigraph Kara Anagata</title>
+        <link rel="canonical" href="https://ultigraph.umn.ac.id/" />
+        <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="Ultigraph Kara Anagata by Universitas Multimedia Nusantara" />
+        <meta name="keywords" content="Ultigraph, Ultigraph UMN, Universitas Multimedia Nusantara, UMN, Ultigraph 2021" />
+
+        <!-- Bootstrap 4.3.1 -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nova+Round&display=swap" rel="stylesheet">
+        
+        <!-- Web Icon -->
+        <link rel="shortcut icon" href="public/img/favicon.png">
+
+        <!-- CSS Vendors -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.1/collection/components/icon/icon.min.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    
+        <!-- CSS Assets -->
+        <style type="text/css">
+            @import url("public/css/app.css");
+            @import url("public/css/owl-carousel.css");
+            @import url("public/css/owl-carousel-theme.css");
+        </style>
+    </head>
+
+    <body id="home" class="fade-in one">
+        <!-- Navbar Desktop -->
+        <nav class="navbar navbar-expand-lg d-none d-lg-flex">
+            <ul class="navbar-nav logo">
+                <li class="nav-item">
+                    <img src="public/img/logo-umn-white.png" class="img-fluid">
+                </li>
+                <li class="nav-item">
+                    <img src="public/img/logo-dkv-white.png" class="img-fluid">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="public/img/logo-karaanagata-white.png" class="img-fluid">
+                    </a>
+                </li>
+            </ul>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicNav3" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon">
+                    <i class="fa fa-bars"></i>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Events
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="seminar-workshop.html">Seminar & Workshops</a>
+                            <a class="dropdown-item" href="competition.html">Competition</a>
+                            <a class="dropdown-item" href="exhibition.html">Exhibition</a>
+                            <a class="dropdown-item" href="bazaar-artmarket.html">Bazaar & Art Market</a>
+                            <a class="dropdown-item" href="talkshow.html">Talkshow</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="awarding-night.html">Awarding Night</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Language
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="index.html">Indonesian</a>
+                            <a class="dropdown-item" href="en/index.html">English</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <nav class="nav-mobile d-block d-lg-none">
+            <ul class="logo">
+                <li>
+                    <img src="public/img/logo-umn-white.png" class="img-fluid">
+                </li>
+                <li>
+                    <img src="public/img/logo-dkv-white.png" class="img-fluid">
+                </li>
+                <li>
+                    <a class="nav-link" href="#">
+                        <img src="public/img/logo-karaanagata-white.png" class="img-fluid">
+                    </a>
+                </li>
+
+                <li>
+                    <ion-icon name="menu-outline" class="mobile-menu-trig float-right" onclick="openNav()"></ion-icon>
+                </li>
+            </ul>
+
+            <div id="myNav" class="overlay-menu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                    <ion-icon name="close-outline"></ion-icon>
+                </a>
+    
+                <div class="overlay-menu-content">
+                    <ul class="mobile-menu">
+                        <li class="menu-item active">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="about.html">About Us</a>
+                        </li>
+                        <li class="menu-item">
+                            <a>Events</a>
+                            <ul class="submenu">
+                                <li><a href="seminar-workshop.html">Seminar & Workshops</a></li>
+                                <li><a href="competition.html">Competition</a></li>
+                                <li><a href="exhibition.html">Exhibition</a></li>
+                                <li><a href="bazaar-artmarket.html">Bazaar & Art Market</a></li>
+                                <li><a href="talkshow.html">Talkshow</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="awarding-night.html">Awarding Night</a>
+                        </li>
+                        <li class="menu-item">
+                            <a>Language</a>
+                            <ul class="submenu">
+                                <li><a href="index.html">Indonesian</a></li>
+                                <li><a href="en/index.html">English</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+
+
+        <!-- Section Top Event -->
+        <section class="section top-event">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-10 offset-1 col-lg-8 offset-lg-2 col-xl-7 offset-xl-0">
+                        <div class="owl-carousel owl-theme" id="owl-carousel-1">
+                            <div class="item">
+                                <div class="event-banner">
+                                    <img src="public/img/main-carousel-1.png" class="w-100 img-fluid" alt="Event Banner">
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="event-banner">
+                                    <img src="public/img/main-carousel-2.png" class="w-100 img-fluid" alt="Event Banner">
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="event-banner">
+                                    <img src="public/img/main-carousel-3.png" class="w-100 img-fluid" alt="Event Banner">
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="event-banner">
+                                    <img src="public/img/main-carousel-4.png" class="w-100 img-fluid" alt="Event Banner">
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="event-banner">
+                                    <img src="public/img/main-carousel-5.png" class="w-100 img-fluid" alt="Event Banner">
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="event-banner">
+                                    <img src="public/img/main-carousel-6.png" class="w-100 img-fluid" alt="Event Banner">
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="event-banner">
+                                    <img src="public/img/main-carousel-7.png" class="w-100 img-fluid" alt="Event Banner">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-10 offset-1 col-lg-8 offset-lg-2 col-xl-5 offset-xl-0">
+                        <div class="row">
+                            <!-- <div class="col-12 col-lg-8 offset-lg-2 col-xl-3 offset-xl-0 mb-3 mb-xl-0">
+                                <div class="event-countdown text-center">
+                                    <h2>2</h2>
+                                    <h4>hari lagi</h4>
+                                </div>
+                            </div> -->
+                            
+                            <div class="col-12">
+                                <div class="tab-list">
+                                    <div class="event-schedule">
+                                        <div class="month" id="january">
+                                            <header>
+                                                <h4>Oktober 2021</h4>
+                                                <nav role='pagination'>
+                                                    <span></span>
+                                                    <span></span>
+                                                </nav>
+                                            </header>
+                                        
+                                            <article>
+                                                <div class="days">
+                                                    <p>min</p>
+                                                    <p>sen</p>
+                                                    <p>sel</p>
+                                                    <p>rab</p>
+                                                    <p>kam</p>
+                                                    <p>jum</p>
+                                                    <p>sab</p>
+                                                </div>
+                                                <ul class="dates nav nav-tabs" role="tablist">
+                                                    <li class="disable"></li>
+                                                    <li class="disable"></li>
+                                                    <li class="disable"></li>
+                                                    <li class="disable"></li>
+                                                    <li class="disable"></li>
+                                                    
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            1
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            2
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            3
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            4
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            5
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            6
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            7
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            8
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            9
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            10
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            11
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            12
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            13
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            14
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            15
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            16
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            17
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            18
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            19
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            20
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            21
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            22
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-1" role="tab">
+                                                            23
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-1a" role="tab">
+                                                            24
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-1b" role="tab">
+                                                            25
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-2" role="tab">
+                                                            26
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-3" role="tab">
+                                                            27
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="active" data-toggle="tab" href="#tabs-4" role="tab">
+                                                            28
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-5" role="tab">
+                                                            29
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-6" role="tab">
+                                                            30
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#tabs-6" role="tab">
+                                                            31
+                                                        </a>
+                                                    </li>
+                                                    <li class="disable">
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            1
+                                                        </a>
+                                                    </li>
+                                                    <li class="disable">
+                                                        <a data-toggle="tab" href="#tabs-0" role="tab">
+                                                            2
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </article>
+                                        </div>
+    
+                                        <!-- TAB CONTENT -->
+                                        <div class="tab-content">
+                                            <div class="tab-pane" id="tabs-0" role="tabpanel">
+                                                <div class="event-detail">
+                                                    <div class="row">
+                                                        <div class="col-12 text-center">
+                                                            <h3>No Event...</h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="tab-pane" id="tabs-1" role="tabpanel">
+                                                <div class="owl-carousel owl-theme" id="owl-carousel-8">
+                                                    <div class="item">
+                                                        <a href="seminar-workshop.html">
+                                                        <div class="event-detail">
+                                                            <div class="row">
+                                                                <div class="col-12 col-md-3">
+                                                                    <div class="avatar">
+                                                                        <img src="public/img/Seminar & Workshop/2. Ryan Slone (Typography can Speak Louder than Words).png" class="img-fluid w-100" alt="Photo">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-md-9 mt-2 mt-md-0">
+                                                                    <h3>Typography Can Speak Louder Than Words</h3>
+                                                                    <h5>Ryan Slone</h5>
+                                                                    <h5>23 Oktober 2021</h5>
+                                                                    <h5>10.00 - 12.00 WIB</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        </a>
+                                                    </div>
+                        
+                                                    <div class="item">
+                                                        <a href="seminar-workshop.html">
+                                                        <div class="event-detail">
+                                                            <div class="row">
+                                                                <div class="col-12 col-md-3">
+                                                                    <div class="avatar">
+                                                                        <img src="public/img/Seminar & Workshop/5. Desiree Tilaar (Brand Customer Experience).png" class="img-fluid w-100" alt="Photo">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-md-9 mt-2 mt-md-0">
+                                                                    <h3>Brand Customer Experience</h3>
+                                                                    <h5>Desiree Tilaar</h5>
+                                                                    <h5>23 Oktober 2021</h5>
+                                                                    <h5>10.00 - 12.00 WIB</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        </a>
+                                                    </div>
+                        
+                                                    <div class="item">
+                                                        <a href="seminar-workshop.html">
+                                                        <div class="event-detail">
+                                                            <div class="row">
+                                                                <div class="col-12 col-md-3">
+                                                                    <div class="avatar">
+                                                                        <video width="100%" height="auto" autoplay muted loop>
+                                                                            <source src="public/img/Seminar & Workshop/Seminar Shifting Strategy Through Pandemic - 1.mp4" type="video/mp4">
+                                                                        </video>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-md-9 mt-2 mt-md-0">
+                                                                    <h3>Shifting Strategy Through Pandemic</h3>
+                                                                    <h5>Mohammad Rizaldi & Dr.Shahrel Nizar Bin Baharom</h5>
+                                                                    <h5>23 Oktober 2021</h5>
+                                                                    <h5>14.00 - 16.00 WIB</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        </a>
+                                                    </div>
+                        
+                                                    <div class="item">
+                                                        <a href="seminar-workshop.html">
+                                                        <div class="event-detail">
+                                                            <div class="row">
+                                                                <div class="col-12 col-md-3">
+                                                                    <div class="avatar">
+                                                                        <img src="public/img/Seminar & Workshop/7. Agnieszka Ziemiszewska (How Strong does a Visual Affect Our Lives).png" class="img-fluid w-100" alt="Photo">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-md-9 mt-2 mt-md-0">
+                                                                    <h3>How Strong Does A Visual Affect Our Lives</h3>
+                                                                    <h5>Agnieszka Ziemiszewska</h5>
+                                                                    <h5>23 Oktober 2021</h5>
+                                                                    <h5>15.00 - 18.00 WIB</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        </a>
+                                                    </div>
+                        
+                                                    <div class="item">
+                                                        <a href="exhibition.html">
+                                                        <div class="event-detail">
+                                                            <div class="row mt-4">
+                                                                <div class="col-12 col-md-3">
+                                                                    <div class="avatar">
+                                                                        <img src="public/img/atmasani-exhibition.png" class="img-fluid w-100" alt="Photo">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-md-9 mt-2 mt-md-0">
+                                                                    <h3>Atmasani Exhibition</h3>
+                                                                    <h5>23 Oktober 2021</h5>
+                                                                </div>
+                                                            </div>        
+                                                        </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                
+                                            <div class="tab-pane" id="tabs-1a" role="tabpanel">
+                                                <a href="exhibition.html">
+                                                <div class="event-detail">
+                                                    <div class="row">
+                                                        <div class="col-12 col-md-3">
+                                                            <div class="avatar">
+                                                                <img src="public/img/atmasani-exhibition.png" class="img-fluid w-100" alt="Photo">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-9 mt-2 mt-md-0">
+                                                            <h3>Atmasani Exhibition</h3>
+                                                            <h5>24 Oktober 2021</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </a>
+                                            </div>
+
+                                            <div class="tab-pane" id="tabs-1b" role="tabpanel">
+                                                <a href="exhibition.html">
+                                                <div class="event-detail">
+                                                    <div class="row">
+                                                        <div class="col-12 col-md-3">
+                                                            <div class="avatar">
+                                                                <img src="public/img/atmasani-exhibition.png" class="img-fluid w-100" alt="Photo">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-9 mt-2 mt-md-0">
+                                                            <h3>Atmasani Exhibition</h3>
+                                                            <h5>25 Oktober 2021</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </a>
+                                            </div>
+        
+                                            <div class="tab-pane" id="tabs-2" role="tabpanel">
+                                                <div class="owl-carousel owl-theme" id="owl-carousel-8a">
+                                                    <div class="item">
+                                                        <a href="seminar-workshop.html">
+                                                        <div class="event-detail">
+                                                            <div class="row">
+                                                                <div class="col-12 col-md-3">
+                                                                    <div class="avatar">
+                                                                        <video width="100%" height="auto" autoplay muted loop>
+                                                                            <source src="public/img/Seminar & Workshop/Workshop How to Start Your Own Business in The Creative Industry - 1.mp4" type="video/mp4">
+                                                                        </video>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-md-9 mt-2 mt-md-0">
+                                                                    <h3>How to Start Your Own Business in the Creative Industry</h3>
+                                                                    <h5>Marry & Nadia Daniella</h5>
+                                                                    <h5>26 Oktober 2021</h5>
+                                                                    <h5>15.00 - 18.00 WIB</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="item">
+                                                        <a href="exhibition.html">
+                                                        <div class="event-detail">
+                                                            <div class="row">
+                                                                <div class="col-12 col-md-3">
+                                                                    <div class="avatar">
+                                                                        <img src="public/img/atmasani-exhibition.png" class="img-fluid w-100" alt="Photo">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-md-9 mt-2 mt-md-0">
+                                                                    <h3>Atmasani Exhibition</h3>
+                                                                    <h5>26 Oktober 2021</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="tab-pane" id="tabs-3" role="tabpanel">
+                                                <div class="owl-carousel owl-theme" id="owl-carousel-8b">
+                                                    <div class="item">
+                                                        <a href="seminar-workshop.html">
+                                                        <div class="event-detail">
+                                                            <div class="row">
+                                                                <div class="col-12 col-md-3">
+                                                                    <div class="avatar">
+                                                                        <video width="100%" height="auto" autoplay muted loop>
+                                                                            <source src="public/img/Seminar & Workshop/Seminar How Does a Designer Adapt to a New Condition - 1.mp4" type="video/mp4">
+                                                                        </video>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-md-9 mt-2 mt-md-0">
+                                                                    <h3>How Does A Designer Adapt to A New Condition</h3>
+                                                                    <h5>Eko Sofyan Rizal, Ismiaji Cahyono, Rege Luhur Indrastudianto, Dr. Intan Rizky Mutiaz, M.Ds</h5>
+                                                                    <h5>27 Oktober 2021</h5>
+                                                                    <h5>15.00 - 17.00 WIB</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="item">
+                                                        <a href="exhibition.html">
+                                                        <div class="event-detail">
+                                                            <div class="row">
+                                                                <div class="col-12 col-md-3">
+                                                                    <div class="avatar">
+                                                                        <img src="public/img/atmasani-exhibition.png" class="img-fluid w-100" alt="Photo">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-md-9 mt-2 mt-md-0">
+                                                                    <h3>Atmasani Exhibition</h3>
+                                                                    <h5>27 Oktober 2021</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="tab-pane active" id="tabs-4" role="tabpanel">
+                                                <div class="owl-carousel owl-theme" id="owl-carousel-8c">
+                                                    <div class="item">
+                                                        <a href="seminar-workshop.html">
+                                                        <div class="event-detail">
+                                                            <div class="row">
+                                                                <div class="col-12 col-md-3">
+                                                                    <div class="avatar">
+                                                                        <video width="100%" height="auto" autoplay muted loop>
+                                                                            <source src="public/img/Seminar & Workshop/Workshop How to Make an Impactful Digital Product - 1.mp4" type="video/mp4">
+                                                                        </video>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-md-9 mt-2 mt-md-0">
+                                                                    <h3>How to Make An Impactful Digital Product</h3>
+                                                                    <h5>Yohanes Chandra Wijaya & Johanes Adhitya Hartanto</h5>
+                                                                    <h5>28 Oktober 2021</h5>
+                                                                    <h5>14.00 - 17.00 WIB</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="item">
+                                                        <a href="exhibition.html">
+                                                        <div class="event-detail">
+                                                            <div class="row">
+                                                                <div class="col-12 col-md-3">
+                                                                    <div class="avatar">
+                                                                        <img src="public/img/atmasani-exhibition.png" class="img-fluid w-100" alt="Photo">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-md-9 mt-2 mt-md-0">
+                                                                    <h3>Atmasani Exhibition</h3>
+                                                                    <h5>28 Oktober 2021</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="tab-pane" id="tabs-5" role="tabpanel">
+                                                <div class="owl-carousel owl-theme" id="owl-carousel-8d">
+                                                    <div class="item">
+                                                        <a href="seminar-workshop.html">
+                                                        <div class="event-detail">
+                                                            <div class="row">
+                                                                <div class="col-12 col-md-3">
+                                                                    <div class="avatar">
+                                                                        <img src="public/img/Seminar & Workshop/9. Olivia G Sutanto (Good Design is More Than Aesthetics).png" class="img-fluid w-100" alt="Photo">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-md-9 mt-2 mt-md-0">
+                                                                    <h3>Good Design is More Than Aesthetics</h3>
+                                                                    <h5>Olivia G Sutanto</h5>
+                                                                    <h5>29 Oktober 2021</h5>
+                                                                    <h5>15.00 - 17.00 WIB</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="item">
+                                                        <a href="exhibition.html">
+                                                        <div class="event-detail">
+                                                            <div class="row">
+                                                                <div class="col-12 col-md-3">
+                                                                    <div class="avatar">
+                                                                        <img src="public/img/atmasani-exhibition.png" class="img-fluid w-100" alt="Photo">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-md-9 mt-2 mt-md-0">
+                                                                    <h3>Atmasani Exhibition</h3>
+                                                                    <h5>29 Oktober 2021</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="tab-pane" id="tabs-6" role="tabpanel">
+                                                <div class="owl-carousel owl-theme" id="owl-carousel-8e">
+                                                    <div class="item">
+                                                        <a href="seminar-workshop.html">
+                                                        <div class="event-detail">
+                                                            <div class="row">
+                                                                <div class="col-12 col-md-3">
+                                                                    <div class="avatar">
+                                                                        <img src="public/img/Seminar & Workshop/2. Aris Hwangga (Idea Development).png" class="img-fluid w-100" alt="Photo">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-md-9 mt-2 mt-md-0">
+                                                                    <h3>Idea Development</h3>
+                                                                    <h5>Aris Hwangga</h5>
+                                                                    <h5>30 Oktober 2021</h5>
+                                                                    <h5>14.00 - 17.00 WIB</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="item">
+                                                        <a href="exhibition.html">
+                                                        <div class="event-detail">
+                                                            <div class="row">
+                                                                <div class="col-12 col-md-3">
+                                                                    <div class="avatar">
+                                                                        <img src="public/img/atmasani-exhibition.png" class="img-fluid w-100" alt="Photo">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-md-9 mt-2 mt-md-0">
+                                                                    <h3>Atmasani Exhibition</h3>
+                                                                    <h5>30 Oktober 2021</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Event Opening -->
+        <!-- <section class="section event-opening">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-10 offset-md-1 text-center">
+                        <h2 class="mb-4">Ultigraph 2021 Main Event is Finally Here!</h2>
+                        <video width="100%" height="auto" controls>
+                            <source src="public/img/Video Speech Final (COMPRESSED).mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Section Event List -->
+        <section class="section event-list">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="events-grid first-row">
+                            <div class="card--event-list">
+                                <a href="seminar-workshop.html">
+                                    <div class="event-bg">
+                                        <h3>Seminar <br/> and <br/> Workshop</h3>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card--event-list">
+                                <img src="public/img/event-pattern_1.png" class="w-100 img-fluid" alt="Event Pattern">
+                            </div>
+
+                            <div class="card--event-list">
+                                <a href="competition.html">
+                                    <div class="event-bg">
+                                        <h3>Competition</h3>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="events-grid second-row">
+                            <div class="card--event-list">
+                                <img src="public/img/event-pattern_2.png" class="w-100 img-fluid" alt="Event Pattern">
+                            </div>
+
+                            <div class="card--event-list">
+                                <a href="exhibition.html">
+                                    <div class="event-bg">
+                                        <h3>Exhibition</h3>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card--event-list">
+                                <img src="public/img/event-pattern_3.png" class="w-100 img-fluid" alt="Event Pattern">
+                            </div>
+                        </div>
+
+                        <div class="events-grid third-row">
+                            <div class="card--event-list">
+                                <a href="bazaar-artmarket.html">
+                                    <div class="event-bg">
+                                        <h3>Bazaar <br/> and <br/> Market</h3>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card--event-list">
+                                <a href="talkshow.html">
+                                    <div class="event-bg">
+                                        <h3>Talkshow</h3>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <h5>Sponsors</h5>
+                        <ul>
+                            <li><img src="public/img/Logos/Clip-Studio-Paint_white.png" class="img-fluid" alt="Sponsor Logo"></li>
+                            <li><img src="public/img/Logos/Trimegah _white.png" class="img-fluid" alt="Sponsor Logo"></li>
+                            <li><img src="public/img/Logos/Pintu_white.png" class="img-fluid" alt="Sponsor Logo"></li>
+                            <li><img src="public/img/Logos/Egghead_white.png" class="img-fluid" alt="Sponsor Logo"></li>
+                            <li><img src="public/img/Logos/Decodes_white.png" class="img-fluid" alt="Sponsor Logo"></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <h5>Partnership</h5>
+                        <ul>
+                            <li><img src="public/img/Logos/ADGI_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/DGI_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Aidia_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/wgd_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Nusakara_white.png" class="img-fluid" alt="Partner Logo"></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 mt-5">
+                        <h5>Media Partner</h5>
+                        <ul class="media-partner">
+                            <li><img src="public/img/Logos/Sejutacita_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Kreativv_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Senidigital_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Kamiumn_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/hmdkv_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Ultimagz_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Kantoeng-Mata_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/UMN-Radio_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Majalah-Sunday_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Redaksi-Titikdua_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Event-Fest_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/FUN_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Masterpiece_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/UMN-Juice_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Radio-ITB_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Share-Event_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Event-Kampus_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Lomba-Mahasiswa_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Event-Campus_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Milenial_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Lomba-Online_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/RTC-UI-FM_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Infolomba_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Infolomba-2_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/RDK-FM_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/UB-Radio_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Event-Mahasiswa_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Campuspedia_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Media-Event_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Acara-Kampus_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Event-Journal_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Ruang-Mahasiswa_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Aaksen-Studio_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Redaksi-Garisbawah_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Peron_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Altform_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Kabar-Kampus_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/EraFM_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/FourtyFive_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="public/img/Logos/Point-Kampus_white.png" class="img-fluid" alt="Partner Logo"></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 mt-5">
+                        <h5 class="mb-4">Contact Us</h5>
+                        <ul class="social-media">
+                            <li>
+                                <a href="https://www.instagram.com/ultigraph" target="_blank">
+                                    <ion-icon name="logo-instagram" class="icon mr-2"></ion-icon>@ultigraph
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:ultigraph@umn.ac.id" target="_blank">
+                                    <ion-icon name="mail-outline" class="icon mr-2"></ion-icon>ultigraph@umn.ac.id
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JS Base -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- JS Vendors -->
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <!-- JS Assets -->
+        <script type="text/javascript" src="public/js/jquery.js"></script>
+        <script type="text/javascript" src="public/js/mobile-nav.js"></script>
+        <script type="text/javascript" src="public/js/owl.carousel.min.js"></script>
+        <script type="text/javascript">
+            $("#owl-carousel-1").owlCarousel({
+                items: 1,
+                slideTransition:'linear',
+                loop:true,
+                margin: 0,
+                autoplay: true,
+                smartSpeed: 1000,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                rewind: true,
+                nav: true,
+                navText:["<div class='nav-btn prev-slide'><ion-icon name='arrow-back-outline'></ion-icon></div>","<div class='nav-btn next-slide'><ion-icon name='arrow-forward-outline'></ion-icon></div>"],
+                responsiveClass: false,
+            });
+        </script>
+
+        <script type="text/javascript">
+            $("#owl-carousel-8").owlCarousel({
+                items: 1,
+                slideTransition:'linear',
+                loop:true,
+                margin: 0,
+                autoplay: false,
+                smartSpeed: 1000,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                rewind: true,
+                nav: true,
+                navText:["<div class='nav-btn prev-slide'><ion-icon name='arrow-back-outline'></ion-icon></div>","<div class='nav-btn next-slide'><ion-icon name='arrow-forward-outline'></ion-icon></div>"],
+                responsiveClass: false,
+            });
+        </script>
+
+        <script type="text/javascript">
+            $("#owl-carousel-8a").owlCarousel({
+                items: 1,
+                slideTransition:'linear',
+                loop:true,
+                margin: 0,
+                autoplay: false,
+                smartSpeed: 1000,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                rewind: true,
+                nav: true,
+                navText:["<div class='nav-btn prev-slide'><ion-icon name='arrow-back-outline'></ion-icon></div>","<div class='nav-btn next-slide'><ion-icon name='arrow-forward-outline'></ion-icon></div>"],
+                responsiveClass: false,
+            });
+        </script>
+
+        <script type="text/javascript">
+            $("#owl-carousel-8b").owlCarousel({
+                items: 1,
+                slideTransition:'linear',
+                loop:true,
+                margin: 0,
+                autoplay: false,
+                smartSpeed: 1000,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                rewind: true,
+                nav: true,
+                navText:["<div class='nav-btn prev-slide'><ion-icon name='arrow-back-outline'></ion-icon></div>","<div class='nav-btn next-slide'><ion-icon name='arrow-forward-outline'></ion-icon></div>"],
+                responsiveClass: false,
+            });
+        </script>
+
+        <script type="text/javascript">
+            $("#owl-carousel-8c").owlCarousel({
+                items: 1,
+                slideTransition:'linear',
+                loop:true,
+                margin: 0,
+                autoplay: false,
+                smartSpeed: 1000,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                rewind: true,
+                nav: true,
+                navText:["<div class='nav-btn prev-slide'><ion-icon name='arrow-back-outline'></ion-icon></div>","<div class='nav-btn next-slide'><ion-icon name='arrow-forward-outline'></ion-icon></div>"],
+                responsiveClass: false,
+            });
+        </script>
+
+        <script type="text/javascript">
+            $("#owl-carousel-8d").owlCarousel({
+                items: 1,
+                slideTransition:'linear',
+                loop:true,
+                margin: 0,
+                autoplay: false,
+                smartSpeed: 1000,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                rewind: true,
+                nav: true,
+                navText:["<div class='nav-btn prev-slide'><ion-icon name='arrow-back-outline'></ion-icon></div>","<div class='nav-btn next-slide'><ion-icon name='arrow-forward-outline'></ion-icon></div>"],
+                responsiveClass: false,
+            });
+        </script>
+
+        <script type="text/javascript">
+            $("#owl-carousel-8e").owlCarousel({
+                items: 1,
+                slideTransition:'linear',
+                loop:true,
+                margin: 0,
+                autoplay: false,
+                smartSpeed: 1000,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                rewind: true,
+                nav: true,
+                navText:["<div class='nav-btn prev-slide'><ion-icon name='arrow-back-outline'></ion-icon></div>","<div class='nav-btn next-slide'><ion-icon name='arrow-forward-outline'></ion-icon></div>"],
+                responsiveClass: false,
+            });
+        </script>
+    </body>
+</html>

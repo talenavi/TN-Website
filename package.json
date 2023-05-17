@@ -1,0 +1,17 @@
+{
+    "name": "ultigraph2021",
+    "version": "1.0.0",
+    "description": "Ultigraph Kara Anagata",
+    "main": "index.js",
+    "scripts": {
+      "build-css": "node-sass --include-path scss scss/app.scss public/css/app.css",
+      "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    },
+    "author": "DecodesMedia",
+    "license": "ISC",
+    "devDependencies": {
+      "node-sass": "^4.12.0",
+      "nodemon": "^1.19.3"
+    }
+  }
+  

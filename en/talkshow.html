@@ -1,0 +1,356 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ultigraph Kara Anagata - Talkshow</title>
+        <link rel="canonical" href="https://ultigraph.umn.ac.id/" />
+        <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="Ultigraph Kara Anagata by Universitas Multimedia Nusantara" />
+        <meta name="keywords" content="Ultigraph, Ultigraph UMN, Universitas Multimedia Nusantara, UMN, Ultigraph 2021" />
+
+        <!-- Bootstrap 4.3.1 -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nova+Round&display=swap" rel="stylesheet">
+        
+        <!-- Web Icon -->
+        <link rel="shortcut icon" href="../public/img/favicon.png">
+
+        <!-- CSS Vendors -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.1/collection/components/icon/icon.min.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    
+        <!-- CSS Assets -->
+        <style type="text/css">
+            @import url("../public/css/app.css");
+            @import url("../public/css/owl-carousel.css");
+            @import url("../public/css/owl-carousel-theme.css");
+        </style>
+    </head>
+
+    <body id="talkshow" class="fade-in one">
+        <!-- Navbar Desktop -->
+        <nav class="navbar navbar-expand-lg d-none d-lg-flex">
+            <ul class="navbar-nav logo">
+                <li class="nav-item">
+                    <img src="../public/img/logo-umn-white.png" class="img-fluid">
+                </li>
+                <li class="nav-item">
+                    <img src="../public/img/logo-dkv-white.png" class="img-fluid">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="../public/img/logo-karaanagata-white.png" class="img-fluid">
+                    </a>
+                </li>
+            </ul>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicNav3" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon">
+                    <i class="fa fa-bars"></i>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Events
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="seminar-workshop.html">Seminar & Workshops</a>
+                            <a class="dropdown-item" href="competition.html">Competition</a>
+                            <a class="dropdown-item" href="exhibition.html">Exhibition</a>
+                            <a class="dropdown-item" href="bazaar-artmarket.html">Bazaar & Art Market</a>
+                            <a class="dropdown-item" href="talkshow.html">Talkshow</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="awarding-night.html">Awarding Night</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Language
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Indonesian</a>
+                            <a class="dropdown-item" href="#">English</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <nav class="nav-mobile d-block d-lg-none">
+            <ul class="logo">
+                <li>
+                    <img src="../public/img/logo-umn-white.png" class="img-fluid">
+                </li>
+                <li>
+                    <img src="../public/img/logo-dkv-white.png" class="img-fluid">
+                </li>
+                <li>
+                    <a class="nav-link" href="#">
+                        <img src="../public/img/logo-karaanagata-white.png" class="img-fluid">
+                    </a>
+                </li>
+
+                <li>
+                    <ion-icon name="menu-outline" class="mobile-menu-trig float-right" onclick="openNav()"></ion-icon>
+                </li>
+            </ul>
+
+            <div id="myNav" class="overlay-menu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                    <ion-icon name="close-outline"></ion-icon>
+                </a>
+    
+                <div class="overlay-menu-content">
+                    <ul class="mobile-menu">
+                        <li class="menu-item">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="about.html">About Us</a>
+                        </li>
+                        <li class="menu-item active">
+                            <a>Events</a>
+                            <ul class="submenu">
+                                <li><a href="seminar-workshop.html">Seminar & Workshops</a></li>
+                                <li><a href="competition.html">Competition</a></li>
+                                <li><a href="exhibition.html">Exhibition</a></li>
+                                <li><a href="bazaar-artmarket.html">Bazaar & Art Market</a></li>
+                                <li><a href="talkshow.html">Talkshow</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="awarding-night.html">Awarding Night</a>
+                        </li>
+                        <li class="menu-item">
+                            <a>Language</a>
+                            <ul class="submenu">
+                                <li><a href="#">Indonesian</a></li>
+                                <li><a href="#">English</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <!-- Section Talkshow -->
+        <section class="section talkshow">
+            <div class="container mb-5 mb-md-7">
+                <div class="row">
+                    <div class="col-12 col-lg-10 offset-lg-1 text-center">
+                        <h1>
+                            Talkshow
+                        </h1>
+                        <h5 class="mt-4">Ultigraph 2021’s Pre-Event will be closed with a Talk Show event, inviting the alumni and alumnae of Universitas Multimedia Nusantara with it’s main title : Embrace The Future.</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>
+                            Embrace the Future
+                        </h2>
+                        <h4 class="mb-4">
+                            Talkshow with UMN’s Alumnae <br/>
+                            02 October 2021
+                        </h4>
+                        <p>
+                            Our lives and experiences will obviously change after we dive into the world of industry. In the Talk Show : Embrace The Future, Ultigraph 2021 has invited Amelia Ruby and William Setiawan as our guest speakers who are all alumni and alumnae of Universitas Multimedia Nusantara to share their own experiences in the professional world.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-12 col-md-6 pr-md-5 mb-4 mb-md-0">
+                        <div class="box-photo">
+                            <img src="../public/img/Talkshow/Amelia Ruby.png" class="w-100 img-fluid" alt="Amelia Ruby Talkshow">
+                            <div class="box-photo__content text-center">
+                                <h4>Amelia Ruby</h4>
+                                <h5>Creative Lead at Tokopedia</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 pl-md-5">
+                        <div class="box-photo">
+                            <img src="../public/img/Talkshow/William Setiawan.png" class="w-100 img-fluid" alt="William Setiawan Talkshow">
+                            <div class="box-photo__content text-center">
+                                <h4>William Setiawan</h4>
+                                <h5>VP of Product TaniHub Group</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4 mt-md-5">
+                    <div class="col-12 col-lg-10">
+                        <p>
+                            Under the topic of “Embracing The Future”, Ultigraph along with our guest speakers will share their own experiences in the professional world and discuss how to build a suitable career for ourselves.
+                        </p>
+                        <h4 class="my-4 registration">Registration Link:</h4>
+                        <img src="../public/img/Talkshow/Talkshow QRcode.png" class="img-fluid qr-code" alt="QR Code Link">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <h5>Sponsors</h5>
+                        <ul>
+                            <li><img src="../public/img/Logos/Clip-Studio-Paint_white.png" class="img-fluid" alt="Sponsor Logo"></li>
+                            <li><img src="../public/img/Logos/Trimegah _white.png" class="img-fluid" alt="Sponsor Logo"></li>
+                            <li><img src="../public/img/Logos/Pintu_white.png" class="img-fluid" alt="Sponsor Logo"></li>
+                            <li><img src="../public/img/Logos/Egghead_white.png" class="img-fluid" alt="Sponsor Logo"></li>
+                            <li><img src="../public/img/Logos/Decodes_white.png" class="img-fluid" alt="Sponsor Logo"></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <h5>Partnership</h5>
+                        <ul>
+                            <li><img src="../public/img/Logos/ADGI_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/DGI_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Aidia_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/wgd_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Nusakara_white.png" class="img-fluid" alt="Partner Logo"></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 mt-5">
+                        <h5>Media Partner</h5>
+                        <ul class="media-partner">
+                            <li><img src="../public/img/Logos/Sejutacita_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Kreativv_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Senidigital_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Kamiumn_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/hmdkv_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Ultimagz_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Kantoeng-Mata_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/UMN-Radio_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Majalah-Sunday_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Redaksi-Titikdua_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Event-Fest_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/FUN_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Masterpiece_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/UMN-Juice_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Radio-ITB_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Share-Event_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Event-Kampus_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Lomba-Mahasiswa_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Event-Campus_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Milenial_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Lomba-Online_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/RTC-UI-FM_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Infolomba_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Infolomba-2_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/RDK-FM_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/UB-Radio_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Event-Mahasiswa_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Campuspedia_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Media-Event_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Acara-Kampus_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Event-Journal_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Ruang-Mahasiswa_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Aaksen-Studio_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Redaksi-Garisbawah_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Peron_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Altform_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Kabar-Kampus_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/EraFM_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/FourtyFive_white.png" class="img-fluid" alt="Partner Logo"></li>
+                            <li><img src="../public/img/Logos/Point-Kampus_white.png" class="img-fluid" alt="Partner Logo"></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 mt-5">
+                        <h5 class="mb-4">Contact Us</h5>
+                        <ul class="social-media">
+                            <li>
+                                <a href="https://www.instagram.com/ultigraph" target="_blank">
+                                    <ion-icon name="logo-instagram" class="icon mr-2"></ion-icon>@ultigraph
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:ultigraph@umn.ac.id" target="_blank">
+                                    <ion-icon name="mail-outline" class="icon mr-2"></ion-icon>ultigraph@umn.ac.id
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JS Base -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- JS Vendors -->
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <!-- JS Assets -->
+        <script type="text/javascript" src="../public/js/jquery.js"></script>
+        <script type="text/javascript" src="../public/js/mobile-nav.js"></script>
+        <script type="text/javascript" src="../public/js/owl.carousel.min.js"></script>
+        <script type="text/javascript">
+            $("#owl-carousel-3").owlCarousel({
+                items: 1,
+                slideTransition:'linear',
+                loop:true,
+                margin: 0,
+                autoplay: false,
+                smartSpeed: 1000,
+                autoplayTimeout: 5000,
+                autoplayHoverPause: true,
+                rewind: true,
+                navText:["<div class='nav-btn prev-slide'><ion-icon name='chevron-back-outline'></ion-icon></div>","<div class='nav-btn next-slide'><ion-icon name='chevron-forward-outline'></ion-icon></div>"],
+                responsiveClass: false,
+            });
+        </script>
+        <script type="text/javascript">
+            $("#owl-carousel-4").owlCarousel({
+                items: 1,
+                slideTransition:'linear',
+                loop:true,
+                margin: 0,
+                autoplay: false,
+                smartSpeed: 1000,
+                autoplayTimeout: 5000,
+                autoplayHoverPause: true,
+                rewind: true,
+                navText:["<div class='nav-btn prev-slide'><ion-icon name='chevron-back-outline'></ion-icon></div>","<div class='nav-btn next-slide'><ion-icon name='chevron-forward-outline'></ion-icon></div>"],
+                responsiveClass: false,
+            });
+        </script>
+    </body>
+</html>
